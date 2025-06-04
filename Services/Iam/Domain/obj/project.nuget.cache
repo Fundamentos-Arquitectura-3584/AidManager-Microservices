@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IrZKX2IznbQ=",
+  "dgSpecHash": "XRTuoZd0Lpk=",
   "success": true,
-  "projectFilePath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Domain/Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/alumnos/.nuget/packages/microsoft.netcore.app.ref/8.0.14/microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "/Users/alumnos/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.14/microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

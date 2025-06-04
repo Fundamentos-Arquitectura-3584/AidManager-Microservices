@@ -1,0 +1,12 @@
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/bin/Debug/net8.0/Domain.dll
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/Domain.dll
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/Debug/net8.0/ref/Domain.dll

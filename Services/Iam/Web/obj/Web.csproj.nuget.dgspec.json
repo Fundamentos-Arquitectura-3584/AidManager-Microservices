@@ -1,20 +1,93 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Web/Web.csproj": {}
+    "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Web/Web.csproj": {}
   },
   "projects": {
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Web/Web.csproj": {
+    "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Web/Web.csproj",
-        "projectName": "Web",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Web/Web.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Web/obj/",
+        "projectUniqueName": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Application/Application.csproj",
+        "packagesPath": "/Users/alumnos/.nuget/packages/",
+        "outputPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/Users/alumnos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/Domain.csproj": {
+                "projectPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/Domain.csproj",
+        "packagesPath": "/Users/alumnos/.nuget/packages/",
+        "outputPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alumnos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +110,81 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Web/Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Web/Web.csproj",
+        "projectName": "Web",
+        "projectPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Web/Web.csproj",
+        "packagesPath": "/Users/alumnos/.nuget/packages/",
+        "outputPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alumnos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Application/Application.csproj": {
+                "projectPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Application/Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -63,6 +210,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -71,7 +232,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
