@@ -1,3 +1,4 @@
-namespace AidManager.Iam.Application.Commands;
+using MediatR;
+using AidManager.Iam.Domain.Entities;
 
-public record SignInCommand(string Username, string Password);
+public record SignInCommand(string Username, string Password) : IRequest<User?>;

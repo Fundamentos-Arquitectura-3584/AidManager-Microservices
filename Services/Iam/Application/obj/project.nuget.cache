@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Am0eJ8RBqfY=",
+  "dgSpecHash": "v+DRYs4D86o=",
   "success": true,
-  "projectFilePath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Application/Application.csproj",
+  "projectFilePath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Application/Application.csproj",
   "expectedPackageFiles": [
-    "/Users/alumnos/.nuget/packages/microsoft.netcore.app.ref/8.0.14/microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
-    "/Users/alumnos/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.14/microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512"
+    "/Users/luisherrera/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/luisherrera/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/luisherrera/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/luisherrera/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

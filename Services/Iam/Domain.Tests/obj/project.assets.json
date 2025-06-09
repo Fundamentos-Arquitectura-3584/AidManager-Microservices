@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
+    "net8.0": {
       "coverlet.collector/6.0.2": {
         "type": "package",
         "build": {
@@ -950,7 +950,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
+    "net8.0": [
       "Domain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "coverlet.collector >= 6.0.2",
@@ -959,32 +959,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/alumnos/.nuget/packages/": {}
+    "/Users/luisherrera/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain.Tests/Domain.Tests.csproj",
+      "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Domain.Tests/Domain.Tests.csproj",
       "projectName": "Domain.Tests",
-      "projectPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain.Tests/Domain.Tests.csproj",
-      "packagesPath": "/Users/alumnos/.nuget/packages/",
-      "outputPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain.Tests/obj/",
+      "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Domain.Tests/Domain.Tests.csproj",
+      "packagesPath": "/Users/luisherrera/.nuget/packages/",
+      "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Domain.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/alumnos/.nuget/NuGet/NuGet.Config"
+        "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/Domain.csproj": {
-              "projectPath": "/Users/alumnos/Documents/u202218227/AidManager-Microservices/Services/Iam/Domain/Domain.csproj"
+            "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Domain/Domain.csproj": {
+              "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Iam/Domain/Domain.csproj"
             }
           }
         }
@@ -998,12 +998,11 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -1038,7 +1037,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
