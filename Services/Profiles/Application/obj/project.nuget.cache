@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/1EdEjuYCKo=",
+  "dgSpecHash": "mj5eOxQ7HFrIegZL+o6VCC/nEzRCVYucJ3yAHNDNwxfPkbTq5QEQtr5Wo6GIJamM2I/rdKmDiwDzz4k61pysKg==",
   "success": true,
-  "projectFilePath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/app/Services/Profiles/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/home/jules/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/home/jules/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/jules/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/home/jules/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

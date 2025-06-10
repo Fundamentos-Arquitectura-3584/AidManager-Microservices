@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Web/Web.csproj": {}
+    "/app/Services/Profiles/Web/Web.csproj": {}
   },
   "projects": {
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/Application.csproj": {
+    "/app/Services/Profiles/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/Application.csproj",
+        "projectUniqueName": "/app/Services/Profiles/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/Application.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/obj/",
+        "projectPath": "/app/Services/Profiles/Application/Application.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/Services/Profiles/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj"
+              "/app/Services/Profiles/Domain/Domain.csproj": {
+                "projectPath": "/app/Services/Profiles/Domain/Domain.csproj"
               }
             }
           }
@@ -36,16 +36,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj": {
+    "/app/Services/Profiles/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj",
+        "projectUniqueName": "/app/Services/Profiles/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/obj/",
+        "projectPath": "/app/Services/Profiles/Domain/Domain.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/Services/Profiles/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -94,11 +99,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -120,21 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Infrastructure/Infrastructure.csproj": {
+    "/app/Services/Profiles/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/app/Services/Profiles/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Infrastructure/obj/",
+        "projectPath": "/app/Services/Profiles/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/Services/Profiles/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -146,11 +146,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/Application.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/Application.csproj"
+              "/app/Services/Profiles/Application/Application.csproj": {
+                "projectPath": "/app/Services/Profiles/Application/Application.csproj"
               },
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj"
+              "/app/Services/Profiles/Domain/Domain.csproj": {
+                "projectPath": "/app/Services/Profiles/Domain/Domain.csproj"
               }
             }
           }
@@ -159,16 +159,35 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0-beta.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -185,21 +204,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Web/Web.csproj": {
+    "/app/Services/Profiles/Web/Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Web/Web.csproj",
+        "projectUniqueName": "/app/Services/Profiles/Web/Web.csproj",
         "projectName": "Web",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Web/Web.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Web/obj/",
+        "projectPath": "/app/Services/Profiles/Web/Web.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/Services/Profiles/Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -211,11 +230,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/Application.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Application/Application.csproj"
+              "/app/Services/Profiles/Application/Application.csproj": {
+                "projectPath": "/app/Services/Profiles/Application/Application.csproj"
               },
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Infrastructure/Infrastructure.csproj"
+              "/app/Services/Profiles/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/app/Services/Profiles/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -224,11 +243,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -263,7 +277,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
