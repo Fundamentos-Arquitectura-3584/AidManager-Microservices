@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dCrfd+k1Niw=",
+  "dgSpecHash": "PMSAMIOyDAc1uUls3e7C/1OlGviC2qX4dbBTHdigYzfYV6+yxO7ajNDEFoG7BQ9ZlVVNjkRwrzyxDOCTyxcBVQ==",
   "success": true,
-  "projectFilePath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/Application.csproj",
+  "projectFilePath": "/app/Services/Collaborate/Application/Application.csproj",
   "expectedPackageFiles": [
-    "/Users/luisherrera/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
-    "/Users/luisherrera/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
-    "/Users/luisherrera/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "/Users/luisherrera/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "/home/swebot/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/home/swebot/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/swebot/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/home/swebot/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

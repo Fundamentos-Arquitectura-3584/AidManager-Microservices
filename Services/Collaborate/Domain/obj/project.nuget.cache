@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IX5woCiK+0s=",
+  "dgSpecHash": "iaI0Swf/L6Bxvl0UfJYIreW5YLbBh+zokxTx+n507BW6xMecfBSVxlgM6VwD9VVX9huxcvZTzMhlN8XsTGHvZQ==",
   "success": true,
-  "projectFilePath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/Domain.csproj",
+  "projectFilePath": "/app/Services/Collaborate/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
