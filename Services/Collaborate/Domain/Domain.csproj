@@ -6,13 +6,5 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="Entities\Comment.cs" />
-    <Compile Include="Entities\Event.cs" />
-    <Compile Include="Entities\FavoritePost.cs" />
-    <Compile Include="Entities\LikedPost.cs" />
-    <Compile Include="Entities\Post.cs" />
-    <Compile Include="Entities\PostImage.cs" />
-  </ItemGroup>
 
 </Project>

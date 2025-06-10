@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/jules/.nuget/packages/": {}
+    "/Users/luisherrera/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/app/Services/Profiles/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/app/Services/Profiles/Domain/Domain.csproj",
-      "packagesPath": "/home/jules/.nuget/packages/",
-      "outputPath": "/app/Services/Profiles/Domain/obj/",
+      "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj",
+      "packagesPath": "/Users/luisherrera/.nuget/packages/",
+      "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jules/.nuget/NuGet/NuGet.Config"
+        "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
