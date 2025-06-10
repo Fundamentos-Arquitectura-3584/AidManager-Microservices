@@ -4,6 +4,7 @@ namespace Tasks.Domain.Entities
     {
         public int UserId { get; set; }
         public int ProjectId { get; set; }
+        public Project Project { get; set; } // Navigation property
 
         // Parameterless constructor for EF Core
         public ProjectTeamMember() {}

@@ -7,17 +7,17 @@ using Tasks.Application.Interfaces;
 
 namespace Tasks.Application.Handlers
 {
-    public class GetTaskByIdQueryHandler : IRequestHandler<GetTaskByIdQuery, TaskItemDto?>
+    public class GetTaskItemByIdQueryHandler : IRequestHandler<GetTaskItemByIdQuery, TaskItemDto?>
     {
         private readonly ITaskItemRepository _taskItemRepository;
         // private readonly IUserService _userService; // For assignee details
 
-        public GetTaskByIdQueryHandler(ITaskItemRepository taskItemRepository)
+        public GetTaskItemByIdQueryHandler(ITaskItemRepository taskItemRepository)
         {
             _taskItemRepository = taskItemRepository;
         }
 
-        public async Task<TaskItemDto?> Handle(GetTaskByIdQuery request, CancellationToken cancellationToken)
+        public async Task<TaskItemDto?> Handle(GetTaskItemByIdQuery request, CancellationToken cancellationToken)
         {
             var task = await _taskItemRepository.GetByIdAsync(request.Id, cancellationToken);
             if (task == null) return null;
