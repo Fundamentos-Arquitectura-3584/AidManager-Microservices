@@ -4,7 +4,7 @@ using Tasks.Application.DTOs; // For TaskItemDto as response
 
 namespace Tasks.Application.Commands
 {
-    public record CreateTaskCommand(
+    public record CreateTaskItemCommand(
         string Title,
         string? Description,
         DateOnly DueDate,

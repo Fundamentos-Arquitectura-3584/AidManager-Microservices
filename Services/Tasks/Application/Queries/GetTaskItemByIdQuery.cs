@@ -3,5 +3,5 @@ using Tasks.Application.DTOs;
 
 namespace Tasks.Application.Queries
 {
-    public record GetTaskByIdQuery(int Id) : IRequest<TaskItemDto?>;
+    public record GetTaskItemByIdQuery(int Id) : IRequest<TaskItemDto?>;
 }

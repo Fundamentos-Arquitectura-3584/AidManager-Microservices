@@ -7,16 +7,16 @@ using Tasks.Application.Interfaces;
 
 namespace Tasks.Application.Handlers
 {
-    public class UpdateTaskCommandHandler : IRequestHandler<UpdateTaskCommand, TaskItemDto?>
+    public class UpdateTaskItemCommandHandler : IRequestHandler<UpdateTaskItemCommand, TaskItemDto?>
     {
         private readonly ITaskItemRepository _taskItemRepository;
 
-        public UpdateTaskCommandHandler(ITaskItemRepository taskItemRepository)
+        public UpdateTaskItemCommandHandler(ITaskItemRepository taskItemRepository)
         {
             _taskItemRepository = taskItemRepository;
         }
 
-        public async Task<TaskItemDto?> Handle(UpdateTaskCommand request, CancellationToken cancellationToken)
+        public async Task<TaskItemDto?> Handle(UpdateTaskItemCommand request, CancellationToken cancellationToken)
         {
             var taskItem = await _taskItemRepository.GetByIdAsync(request.Id, cancellationToken);
             if (taskItem == null || taskItem.ProjectId != request.ProjectId)

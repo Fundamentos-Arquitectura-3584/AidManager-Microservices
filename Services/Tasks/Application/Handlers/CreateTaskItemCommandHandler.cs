@@ -9,17 +9,17 @@ using Tasks.Domain.Entities;
 
 namespace Tasks.Application.Handlers
 {
-    public class CreateTaskCommandHandler : IRequestHandler<CreateTaskCommand, TaskItemDto>
+    public class CreateTaskItemCommandHandler : IRequestHandler<CreateTaskItemCommand, TaskItemDto>
     {
         private readonly ITaskItemRepository _taskItemRepository;
         // May need a user service to get AssigneeName and AssigneeImage
 
-        public CreateTaskCommandHandler(ITaskItemRepository taskItemRepository)
+        public CreateTaskItemCommandHandler(ITaskItemRepository taskItemRepository)
         {
             _taskItemRepository = taskItemRepository;
         }
 
-        public async Task<TaskItemDto> Handle(CreateTaskCommand request, CancellationToken cancellationToken)
+        public async Task<TaskItemDto> Handle(CreateTaskItemCommand request, CancellationToken cancellationToken)
         {
             var taskItem = new TaskItem
             {
