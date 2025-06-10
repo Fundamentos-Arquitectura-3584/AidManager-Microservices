@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Web/Web.csproj": {}
+    "/app/Services/Collaborate/Web/Web.csproj": {}
   },
   "projects": {
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/Application.csproj": {
+    "/app/Services/Collaborate/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/Application.csproj",
+        "projectUniqueName": "/app/Services/Collaborate/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/Application.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/obj/",
+        "projectPath": "/app/Services/Collaborate/Application/Application.csproj",
+        "packagesPath": "/home/swebot/.nuget/packages/",
+        "outputPath": "/app/Services/Collaborate/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/swebot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/Domain.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/Domain.csproj"
+              "/app/Services/Collaborate/Domain/Domain.csproj": {
+                "projectPath": "/app/Services/Collaborate/Domain/Domain.csproj"
               }
             }
           }
@@ -36,11 +36,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -72,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/Domain.csproj": {
+    "/app/Services/Collaborate/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/Domain.csproj",
+        "projectUniqueName": "/app/Services/Collaborate/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/Domain.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/obj/",
+        "projectPath": "/app/Services/Collaborate/Domain/Domain.csproj",
+        "packagesPath": "/home/swebot/.nuget/packages/",
+        "outputPath": "/app/Services/Collaborate/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/swebot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -104,11 +99,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -130,21 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Infrastructure/Infrastructure.csproj": {
+    "/app/Services/Collaborate/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/app/Services/Collaborate/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Infrastructure/obj/",
+        "projectPath": "/app/Services/Collaborate/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/swebot/.nuget/packages/",
+        "outputPath": "/app/Services/Collaborate/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/swebot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -156,11 +146,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/Application.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/Application.csproj"
+              "/app/Services/Collaborate/Application/Application.csproj": {
+                "projectPath": "/app/Services/Collaborate/Application/Application.csproj"
               },
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/Domain.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/Domain.csproj"
+              "/app/Services/Collaborate/Domain/Domain.csproj": {
+                "projectPath": "/app/Services/Collaborate/Domain/Domain.csproj"
               }
             }
           }
@@ -169,11 +159,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -215,21 +200,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Web/Web.csproj": {
+    "/app/Services/Collaborate/Web/Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Web/Web.csproj",
+        "projectUniqueName": "/app/Services/Collaborate/Web/Web.csproj",
         "projectName": "Web",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Web/Web.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Web/obj/",
+        "projectPath": "/app/Services/Collaborate/Web/Web.csproj",
+        "packagesPath": "/home/swebot/.nuget/packages/",
+        "outputPath": "/app/Services/Collaborate/Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/swebot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -241,11 +226,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/Application.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Application/Application.csproj"
+              "/app/Services/Collaborate/Application/Application.csproj": {
+                "projectPath": "/app/Services/Collaborate/Application/Application.csproj"
               },
-              "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Infrastructure/Infrastructure.csproj"
+              "/app/Services/Collaborate/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/app/Services/Collaborate/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -254,11 +239,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -293,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

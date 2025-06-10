@@ -10,3 +10,15 @@
 /Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/obj/Debug/net8.0/refint/Domain.dll
 /Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/obj/Debug/net8.0/Domain.pdb
 /Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Collaborate/Domain/obj/Debug/net8.0/ref/Domain.dll
+/app/Services/Collaborate/Domain/bin/Debug/net8.0/Domain.deps.json
+/app/Services/Collaborate/Domain/bin/Debug/net8.0/Domain.dll
+/app/Services/Collaborate/Domain/bin/Debug/net8.0/Domain.pdb
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/Domain.dll
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/refint/Domain.dll
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/Domain.pdb
+/app/Services/Collaborate/Domain/obj/Debug/net8.0/ref/Domain.dll
