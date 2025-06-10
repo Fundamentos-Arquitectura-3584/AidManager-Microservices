@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj": {}
+    "/app/Services/Profiles/Domain/Domain.csproj": {}
   },
   "projects": {
-    "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj": {
+    "/app/Services/Profiles/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj",
+        "projectUniqueName": "/app/Services/Profiles/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/Domain.csproj",
-        "packagesPath": "/Users/luisherrera/.nuget/packages/",
-        "outputPath": "/Users/luisherrera/Documents/2025-coding-projects/by-upc/7mo-architectura-de-software/AidManager-Microservices/Services/Profiles/Domain/obj/",
+        "projectPath": "/app/Services/Profiles/Domain/Domain.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/Services/Profiles/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
