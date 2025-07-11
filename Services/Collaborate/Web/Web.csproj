@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <!-- Pinned to 8.0.0 based on user's .NET 8.0 requirement, can be updated to latest 8.x if compatible -->
+    <!-- The Iam service uses 8.0.15 for OpenApi, 6.6.2 for Swashbuckle.AspNetCore -->
+    <!-- Let's use versions closer to Iam for consistency -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
+      <!-- Iam uses 8.0.3, Payments uses 8.0.13. Let's stick to 8.0.3 for now -->
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <!-- MediatR packages are not strictly needed here if commands/queries are only passed through controllers, -->
+    <!-- but can be useful for direct use in Program.cs or minimal APIs if that pattern is adopted. -->
+    <!-- For now, let's keep it clean and not add MediatR here directly unless needed. -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
