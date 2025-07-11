@@ -1,6 +1,6 @@
 using Iam.Application.Contracts;
 using Iam.Domain.Entities;
-using Iam.Infrastructure.Persistence;
+using AidManager.Iam.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 

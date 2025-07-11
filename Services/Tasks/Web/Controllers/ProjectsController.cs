@@ -1,17 +1,8 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using Tasks.Application.Features.Projects.Commands.CreateProject;
-using Tasks.Application.Features.Projects.Commands.UpdateProject;
-using Tasks.Application.Features.Projects.Commands.DeleteProject;
-using Tasks.Application.Features.Projects.Commands.UpdateRating;
-using Tasks.Application.Features.Projects.Commands.SaveProjectAsFavorite;
-using Tasks.Application.Features.Projects.Commands.DeleteProjectFromFavorite;
-using Tasks.Application.Features.Projects.Queries.GetProject;
-using Tasks.Application.Features.Projects.Queries.GetAllProjects;
-using Tasks.Application.Features.Projects.Queries.GetTeamMembers;
-using Tasks.Application.Features.Projects.Queries.GetProjectsByUser;
-using Tasks.Application.Features.Projects.Queries.GetFavoriteProjectsByUser;
+using Tasks.Application.Commands;
+using Tasks.Application.Queries;
 
 namespace Tasks.Web.Controllers
 {
@@ -31,38 +22,30 @@ namespace Tasks.Web.Controllers
         public async Task<IActionResult> CreateProject([FromBody] CreateProjectCommand command)
         {
             var result = await _mediator.Send(command);
-            if (result.Success)
-                return Ok(result.Data);
-            return BadRequest(result.Message);
+            return Ok(result);
         }
 
         [HttpPut("{projectId}")]
         public async Task<IActionResult> UpdateProject(int projectId, [FromBody] UpdateProjectCommand command)
         {
-            if (projectId != command.Id)
-                return BadRequest("ID mismatch");
             var result = await _mediator.Send(command);
-            if (result.Success)
-                return Ok(result.Data);
-            return BadRequest(result.Message);
+            return Ok(result);
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllProjects([FromQuery] int companyId)
         {
-            var query = new GetAllProjectsQuery { CompanyId = companyId };
+            var query = new GetAllProjectsQuery(companyId);
             var result = await _mediator.Send(query);
-            return Ok(result.Data);
+            return Ok(result);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProject(int id)
         {
-            var query = new GetProjectQuery { Id = id };
+            var query = new GetProjectByIdQuery(id);
             var result = await _mediator.Send(query);
-            if (result.Data == null)
-                return NotFound();
-            return Ok(result.Data);
+            return Ok(result);
         }
 
         [HttpPatch("{projectId}/rating")]
@@ -71,61 +54,53 @@ namespace Tasks.Web.Controllers
             if (projectId != command.ProjectId)
                 return BadRequest("ID mismatch");
             var result = await _mediator.Send(command);
-            if (result.Success)
-                return Ok(result.Data);
-            return BadRequest(result.Message);
+            return Ok(result);
         }
 
         [HttpGet("{projectId}/team")]
         public async Task<IActionResult> GetTeamMembers(int projectId)
         {
-            var query = new GetTeamMembersQuery { ProjectId = projectId };
+            var query = new GetAllTeamMembersByProjectIdQuery(projectId);
             var result = await _mediator.Send(query);
-            return Ok(result.Data);
+            return Ok(result);
         }
 
         [HttpDelete("{projectId}")]
         public async Task<IActionResult> DeleteProject(int projectId)
         {
-            var command = new DeleteProjectCommand { Id = projectId };
+            var command = new DeleteProjectCommand(projectId);
             var result = await _mediator.Send(command);
-            if (result.Success)
-                return Ok(result.Data);
-            return BadRequest(result.Message);
+            return Ok(result);
         }
 
         [HttpGet("user/{userId}")]
         public async Task<IActionResult> GetProjectsByUser(int userId)
         {
-            var query = new GetProjectsByUserQuery { UserId = userId };
+            var query = new GetAllProjectsByUserIdQuery(userId);
             var result = await _mediator.Send(query);
-            return Ok(result.Data);
+            return Ok(result);
         }
 
         [HttpPost("favorite")]
         public async Task<IActionResult> SaveProjectAsFavorite([FromBody] SaveProjectAsFavoriteCommand command)
         {
             var result = await _mediator.Send(command);
-            if (result.Success)
-                return Ok(result.Data);
-            return BadRequest(result.Message);
+            return Ok(result);
         }
 
         [HttpDelete("favorite")]
-        public async Task<IActionResult> DeleteProjectFromFavorite([FromBody] DeleteProjectFromFavoriteCommand command)
+        public async Task<IActionResult> DeleteProjectFromFavorite([FromBody] DeleteProjectCommand command)
         {
             var result = await _mediator.Send(command);
-            if (result.Success)
-                return Ok(result.Data);
-            return BadRequest(result.Message);
+            return Ok(result);
         }
 
         [HttpGet("favorite/user/{userId}")]
         public async Task<IActionResult> GetFavoriteProjectsByUser(int userId)
         {
-            var query = new GetFavoriteProjectsByUserQuery { UserId = userId };
+            var query = new GetFavoriteProjectsByUserIdQuery(userId);
             var result = await _mediator.Send(query);
-            return Ok(result.Data);
+            return Ok(result);
         }
     }
 }

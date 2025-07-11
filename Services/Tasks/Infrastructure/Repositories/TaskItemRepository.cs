@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Tasks.Application.Interfaces;
 using Tasks.Domain.Entities;
+using Tasks.Infrastructure.Persistence;
 
 namespace Tasks.Infrastructure.Repositories
 {

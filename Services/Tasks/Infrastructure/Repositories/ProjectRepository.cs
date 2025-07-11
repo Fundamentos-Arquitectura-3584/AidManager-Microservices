@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Tasks.Application.Interfaces;
 using Tasks.Domain.Entities;
 using Tasks.Domain.ValueObjects;
+using Tasks.Infrastructure.Persistence;
 
 namespace Tasks.Infrastructure.Repositories
 {
@@ -137,10 +138,7 @@ namespace Tasks.Infrastructure.Repositories
         {
             return await _context.FavoriteProjects
                 .Where(fp => fp.UserId == userId)
-                .Include(fp => fp.Project) // Assuming FavoriteProject has a navigation property to Project
-                    .ThenInclude(p => p.ImageUrls) // And Project has ImageUrls
-                .Select(fp => fp.Project)
-                .ToListAsync(cancellationToken);
+                .Select(fp => fp.Project);
         }
 
         public async Task<bool> UpdateRatingAsync(int projectId, double rating, CancellationToken cancellationToken = default)

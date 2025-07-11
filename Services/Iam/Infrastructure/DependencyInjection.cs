@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using AidManager.Iam.Infrastructure.Persistence;
 using Iam.Application.Contracts; // For IUserRepository and ICompanyRepository
+using AidManager.Iam.Application.Interfaces;
 using Iam.Infrastructure.Repositories; // For UserRepository and CompanyRepository
 
 namespace AidManager.Iam.Infrastructure;
